@@ -25,7 +25,7 @@
         },
         methods: {
             lifeCycleEvent() {
-                alert("Esse dodo é um burro")
+                
             }
         }
     }

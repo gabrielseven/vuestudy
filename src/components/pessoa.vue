@@ -2,19 +2,16 @@
     <div>
         <p>Descrição da pessoa: {{ name }}</p>
         <info />
-        <alho />
 
     </div>
 </template>
 <script>
-    import info from './info.vue'
-    import alho from './alho.vue'
+    import Info from './Info.vue'
 
     export default {
         name: 'Pessoa',
         components:{
-            info,
-            alho
+            Info,
         }, 
         data() {
             return {
