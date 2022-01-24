@@ -8,6 +8,6 @@
 </script>
 <style>
     #alho {
-        height: 600px;
+        height: 200px;
     }
 </style>
