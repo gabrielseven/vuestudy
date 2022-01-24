@@ -14,12 +14,19 @@
             setTimeout (() => {
                 this.nome = 'Química Mix x Pão de Alho'
             }, 2000);
+            this.lifeCycleEvent()
         },
         mounted(){
             setTimeout (() => {
                 this.nome = 'Final FutSoftware 2014'
             }, 4000);
+            this.lifeCycleEvent()
 
+        },
+        methods: {
+            lifeCycleEvent() {
+                alert("Esse dodo é um burro")
+            }
         }
     }
 </script>

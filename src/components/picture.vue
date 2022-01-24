@@ -1,5 +1,5 @@
 <template>
-    <img :src="avatar" :alt="descricao">
+    <img :src="avatar" :alt="descricao" width="200" height="200">
 </template>
 <script>
     export default {
